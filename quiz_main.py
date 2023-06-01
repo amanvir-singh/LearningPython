@@ -62,9 +62,9 @@ def quiz(file,passpercent): #Main quiz function.
                 elif p==2:
                     user_ans='b'
                 elif p==3:
-                    user_ans=='c'
+                    user_ans='c'
                 elif p==4:
-                    user_ans=='d'
+                    user_ans='d'
             if user_ans.lower()==str(ans[i]):
                 print('Correct')
                 marks+=1
